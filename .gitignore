@@ -1,0 +1,17 @@
+node_modules
+config.json
+config.dev.json
+yarn.lock
+package-lock.json
+videos
+yarn-error.log
+/.vs
+.vs
+/utils/logger/logs
+*.DS_Store
+
+.env
+.env.*
+
+# ignore local scripts folder
+/scripts/*

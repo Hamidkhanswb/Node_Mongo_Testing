@@ -17,6 +17,11 @@ app.get('/home', function(req, res){
 });
 
 app.get('/crash', function(req, res){
+   new Promise((res, rej)=>{
+      setTimeout(()=>{
+         res()
+      }, 1000)
+   })
    throw new Error("crashed")
 });
 
